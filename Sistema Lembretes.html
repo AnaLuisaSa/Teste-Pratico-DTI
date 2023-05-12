@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sistema de Criação de Lembretes</title>
+    <link rel="stylesheet" type="text/css" href="SL.css" />
+  </head>
+  <body>
+    <h1>Sistema de Criação de Lembretes</h1>
+
+    <form id="formulario">
+      <h2>Novo Lembrete</h2>
+      <label>Lembrete </label>
+      <input type="text" id="lembrete-input" placeholder="Nome do lembrete" />
+
+      <label>Data </label>
+      <input type="date" id="data-input" />
+      <button type="submit">Adicionar</button>
+
+      <input type="reset" value="Limpar" />
+      
+      <h2>Lista de Lembretes</h2>
+    </form>
+
+    <div id="lembretes">
+      <!-- Mostra lembretes -->
+    </div>
+
+    <script src="SL.js"></script>
+  </body>
+</html>
