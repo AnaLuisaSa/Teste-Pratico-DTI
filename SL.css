@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: azure;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-weight: bolder;
+}
+
+#formulario input[type="text"],
+#formulario input[type="date"] {
+  margin-top: 10px;
+  border-radius: 10cm;
+}
+
+h2.header {
+  background-color: #9b9999;
+  border-radius: 10cm;
+  text-align: center;
+}
+
+.lembretes-lista {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+#formulario {
+  margin-top: 50px;
+}
+
+.button-excluir {
+  margin-left: 10px;
+  border-radius: 3cm;
+  color: white;
+  border: none;
+  background-color: #fa7070;
+}
+#formulario button,
+#formulario input[type="reset"] {
+  margin-left: 10px;
+  border-radius: 10cm;
+  background-color: #9b9999;
+}
